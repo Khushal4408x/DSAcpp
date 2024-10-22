@@ -16,4 +16,5 @@ int main()
         num1 = num2;
         cout << num1 << endl;
     }
+return 0;
 }
