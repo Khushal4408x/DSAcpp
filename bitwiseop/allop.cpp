@@ -7,4 +7,5 @@ int main()
     cout << (6 ^ 10) << endl;
     cout << (10 >> 1) << endl;
     cout << (10 << 2);
+    return 0;
 }
