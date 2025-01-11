@@ -3,5 +3,6 @@
         "iostream": "cpp",
         "ostream": "cpp",
         "vector": "cpp"
-    }
+    },
+    "editor.cursorStyle": "line-thin"
 }
