@@ -11,16 +11,17 @@ int changea(int &b)
 int main()
 {
     int a = 5;
-    int c = 6;
+    /*int c = 6;
     chageA(&a);
     changea(c);
     cout << a << endl
-         << c << endl;
+         << c << endl;*/
 
-    /* int *ptr = &a;
-     int **parptr = &ptr;
-     cout << ptr << endl
-          << parptr << endl
-          << *ptr << endl
-          << *parptr << endl;*/
+    int *ptr = &a;
+    int **parptr = &ptr;
+    cout << ptr << endl
+         << parptr << endl
+         << *ptr << endl
+         << *parptr << endl
+         << **parptr << endl;
 }

@@ -8,7 +8,7 @@ int main()
     cout << "increment op  " << ptr << endl; //+4;
     cout << "original  " << ++ptr << endl
          << "a-1" << --a << endl;
-    cout << "add 1  " << ptr + 1 << endl; //+4*4
+    cout << "add 1  " << ptr + 1 << endl; //+4*1
     cout << "add 4  " << ptr + 4 << endl; //+4*4
     int *ptr1;
     int *ptr2 = ptr1 + 2;
