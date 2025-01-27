@@ -2,8 +2,16 @@
 using namespace std;
 int main()
 {
-    int i = 3;
-    int j = 3;
-    int mat[i][j] = { {1, 2, 3},
-                      {4, 5, 6},
-                      {7, 8, 9} }
+    int target = 8;
+    int m = 5;
+    int n = 3;
+    int mat[5][3] = {{-2, -1, 0},
+                     {1, 2, 3},
+                     {4, 5, 6},
+                     {7, 8, 9},
+                     {10, 11, 12}};
+    int midrow = 0 + ((m - 1) - 0) / 2;
+    if (target < mat[midrow][0])
+    {
+    }
+}
