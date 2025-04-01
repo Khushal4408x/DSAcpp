@@ -32,9 +32,43 @@ public:
         cout<<endl<<subject;
     }
 };
+class student{
+public:
+string Name;
+string branch;
+double* cgpaptr;
+student(string Name,string branch,double cgpa){
+    this->Name=Name;
+    this->branch=branch;
+    cgpaptr = new double;//dynamically allocated memory
+    *cgpaptr=cgpa;
+
+}
+student(student &obj){
+    this->Name=obj.Name;
+    this->branch=obj.branch;
+    this->cgpaptr=obj.cgpaptr;
+}
+void getInfo(){
+    cout<<"Name: "<<Name;
+    cout<<endl<<"branch: "<<branch<<endl;
+    cout<<"cgpa="<<*cgpaptr;
+    cout<<endl;
+
+}
+
+};
 int main(){
 Teacher t1("Khushal","Maths","CSE",40 );//constructor called
  //t1.getInfo();
  Teacher t2(t1);
  t2.getInfo();
+ cout<<endl;
+ cout<<"Next class"<<endl;
+ student s1("Hash","Cse",8.9);
+ s1.getInfo();
+ cout<<endl<<"changing cgpa "<<endl;
+ 
+ 
+
 }
