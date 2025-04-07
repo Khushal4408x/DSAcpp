@@ -32,6 +32,7 @@ public:
         cout<<endl<<subject;
     }
 };
+
 int main(){
 Teacher t1("Khushal","Maths","CSE",40 );//constructor called
  //t1.getInfo();
