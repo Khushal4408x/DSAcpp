@@ -38,6 +38,11 @@ class List{
             temp->next=NULL;tail=temp;
         }
      }
+     void pop_front(){
+        Node* temp=head;
+        h=head->next
+    
+     }
      void display(){
         Node* temp=head;
         while (temp!=NULL){
