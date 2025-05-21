@@ -24,11 +24,11 @@ public:
 };
 int main(){
     stack st;
-   /* st.push_back(4);
+    st.push_back(4);
     st.push_back(3);
     st.push_back(2);
     st.push_back(1);
     st.push_back(0);
-    st.pop();*/
+    st.pop();
     cout<<st.top();
 }
