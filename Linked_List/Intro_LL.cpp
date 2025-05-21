@@ -40,7 +40,7 @@ class List{
      }
      void pop_front(){
         Node* temp=head;
-        h=head->next
+        head=head->next;
     
      }
      void display(){
