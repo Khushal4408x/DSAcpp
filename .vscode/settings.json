@@ -48,7 +48,8 @@
         "streambuf": "cpp",
         "typeinfo": "cpp",
         "finalleetcodecontest_447": "cpp",
-        "stack_by_vector": "cpp"
+        "stack_by_vector": "cpp",
+        "stack": "cpp"
     },
     "editor.cursorStyle": "line-thin"
 }
